@@ -8,6 +8,6 @@
 - command line tool
 
 
-[DEMO](/link.com)
+[DEMO](https://cohort-4.github.io/cohort-4.2-html-class/)
 
 
