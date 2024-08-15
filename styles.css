@@ -1,0 +1,35 @@
+/* comment in css */
+/* cascading style sheet */
+/* using style tag */
+/* inline style */
+/* external style */
+/* 1rem === 16px */
+/* 2rem === 32px */
+/* 0.5rem === 8px */
+
+/* list styles */
+ul,
+ol {
+  background-color: rgb(5, 100, 59);
+  padding: 15px;
+}
+li {
+  color: white;
+  list-style: none;
+  margin: 5px;
+}
+/* list styles */
+
+/* table styles */
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+tr,
+th,
+td {
+  border: 1px solid rgb(206, 198, 198);
+  padding: 15px;
+  text-align: left;
+}
+/* table styles */

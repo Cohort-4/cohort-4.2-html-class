@@ -4,11 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon" />
-    <title>HTML CLASS</title>
     <meta
       name="description"
       content="The site is mainly for learning web dev"
     />
+    <title>HTML CLASS</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      body {
+        background-color: white;
+        color: black;
+      }
+      header {
+        /* css ruleset */
+        /* property: value */
+        background-color: red;
+        padding: 15px;
+        text-align: center;
+      }
+      a {
+        color: white;
+        /* color: inherit; */
+        text-decoration: none;
+        margin: 5px;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        color: rebeccapurple;
+      }
+    </style>
   </head>
   <body>
     <!-- header tag -->
@@ -22,17 +51,17 @@
     </header>
 
     <!-- upload -->
-    <section>
+    <section style="background-color: dodgerblue; padding: 10px">
       <input type="file" />
     </section>
     <!-- upload -->
     <!-- download -->
-     <a href=""></a>
-     <a download href="./images/icon.png">Download</a>
+    <a href=""></a>
+    <a download href="./images/icon.png">Download</a>
     <!-- download -->
 
     <!-- hr -->
-     <hr>
+    <hr />
     <!-- hr -->
 
     <!-- heading tags -->
@@ -117,6 +146,7 @@
 
     <!-- Image element/tag -->
     <img
+      style="width: 30%"
       src="./images/WhatsApp Image 2024-07-22 at 17.23.00.jpeg"
       alt="an advert for AI and Python programming"
     />
@@ -125,14 +155,14 @@
 
     <!-- DIV -->
     <div>
-      <p>Group 1</p>
+      <h3>Group 1</h3>
       <p>hello</p>
       <p>welcome</p>
       <p>Goodbye</p>
     </div>
 
     <div>
-      <p>Group 2</p>
+      <h3>Group 2</h3>
       <p>See you</p>
       <p>Next Tomorrow</p>
       <p>Next Week</p>
